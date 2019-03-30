@@ -434,6 +434,14 @@ footer{
   height: 80px;
 }
 
+footer .footer-box{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 footer p{
   margin: 0 0 5px;
   font-size: 16px;
@@ -442,5 +450,9 @@ footer p{
   letter-spacing: normal;
   text-align: center;
   color: #82b0c0;
+}
+
+footer .brand{
+  font-size: 14px;
 }
 /* FOOTER */
