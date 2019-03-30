@@ -60,6 +60,17 @@ h2{
   margin: auto;
 }
 
+.btn-theme a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.btn-theme:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #E47500;
+}
+
 @media (max-width: 468px){
   h2{
     font-size: 30px;
