@@ -140,6 +140,45 @@ h2{
     padding: 30px 0px;
 }
 
+/* animation scroll */
+.circle-scroll{
+  /* border-radius: 50%; */
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.scroll-down{
+  animation: MoveUpDown 1s linear infinite;
+  animation-name: MoveUpDown;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+.scroll-down i{
+  font-size: 24px;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
+  }
+}
+/* animation scroll */
+
 @media (max-width: 468px){
   .home-section {
       background-image: url("../img/bg-home-mobile3.jpg");
@@ -152,15 +191,31 @@ h2{
     line-height: 1;
     padding: 15px 0px;
   }
+
   .home-section p {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.38;
     padding: 5px 0px;
   }
+
   .home-section h3 {
     font-size: 20px;
     padding:10px 0px;
+  }
+
+  .circle-scroll{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  }
+
+  .circle-scroll i{
+    font-size: 15px;
+  }
+
+  .scroll-down{
+    left: 42%;
   }
 }
 
