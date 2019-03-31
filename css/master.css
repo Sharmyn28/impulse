@@ -267,7 +267,6 @@ h2{
 }
 
 .owl-nav .owl-prev {
-  /* left: -30px; */
   left: -50px;
   margin-top: -26px;
   position: absolute;
@@ -275,7 +274,6 @@ h2{
 }
 
 .owl-nav .owl-next {
-  /* right: -30px; */
   right: -50px;
   margin-top: -26px;
   position: absolute;
@@ -311,6 +309,15 @@ h2{
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+
 }
 
 /* TEMA 2 */
