@@ -248,11 +248,18 @@ h2{
 }
 
 /* end fix */
-.owl-nav > div {
+/* .owl-nav > div {
   margin-top: -26px;
   position: absolute;
   top: 50%;
   color: #cdcbcd;
+} */
+
+.owl-nav {
+  /* margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd; */
 }
 
 .owl-nav i {
@@ -260,11 +267,19 @@ h2{
 }
 
 .owl-nav .owl-prev {
-  left: -30px;
+  /* left: -30px; */
+  left: -50px;
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
 }
 
 .owl-nav .owl-next {
-  right: -30px;
+  /* right: -30px; */
+  right: -50px;
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
 }
 
 .card-carousel {
