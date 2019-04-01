@@ -88,6 +88,7 @@ h2{
 /* HEADER */
 .header{
   background-color: #FFFFFF;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.16);
 }
 /* HEADER */
 
@@ -142,7 +143,6 @@ h2{
 
 /* animation scroll */
 .circle-scroll{
-  /* border-radius: 50%; */
   background-color: white;
   width: 50px;
   height: 50px;
@@ -182,8 +182,6 @@ h2{
 @media (max-width: 468px){
   .home-section {
       background-image: url("../img/bg-home-mobile3.jpg");
-      /* background-size: contain; */
-      /* margin-top: 90px; */
   }
 
   .home-section h1 {
@@ -249,7 +247,7 @@ h2{
 }
 
 .content-table ol li:hover, .content-table ol li a:hover {
-    color: #056082;
+  color: #056082;
 }
 
 @media (max-width: 468px){
@@ -438,7 +436,6 @@ h2{
 .theme-items{
   padding: 20px 100px;
   width: 100%;
-  /* margin-top: 45px; */
 }
 
 .theme-card{
@@ -553,9 +550,6 @@ h2{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 30px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
   }
 
   .last{
@@ -564,7 +558,6 @@ h2{
 
   .theme-card-img{
     width: 100%;
-    /* margin-top: 30px; */
     background: #fff;
     padding: 40px;
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
@@ -602,7 +595,4 @@ footer .footer-brand{
   font-size: 14px;
 }
 
-@media (max-width: 468px){
-
-}
 /* FOOTER */
