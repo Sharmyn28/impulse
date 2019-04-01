@@ -264,9 +264,6 @@ h2{
 }
 /* TABLA DE CONTENIDOS */
 
-/* TEMA 1 */
-/* TEMA 1 */
-
 /* TEMA 2 */
 .theme2{
   background-color: #D6F1F6;
@@ -294,7 +291,7 @@ h2{
 }
 
 /* fix blank or flashing items on carousel */
-.owl-carousel .item {
+#theme2-carousel .owl-carousel .item {
   position: relative;
   z-index: 100;
   -webkit-backface-visibility: hidden;
