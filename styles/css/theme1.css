@@ -1,0 +1,156 @@
+/* TEMA1 */
+
+.theme1{
+  padding: 70px 0;
+}
+.theme1 p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.r-swipe{
+  visibility: hidden;
+  display: none;
+  padding-bottom: 15px;
+}
+@media (max-width: 1200px){
+  .r-swipe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    visibility: visible;
+    display: block;
+  }
+}
+
+/* carousel swipe */
+.item-piel {
+  text-align: center;
+}
+.face {
+  width: 180px;
+  transition: .5s ease;
+  opacity: 0.5;
+}
+.face img{
+  width: 100%;
+  transition: .01s ease;
+  height: auto;
+}
+.changes-info {
+  border-bottom: none !important;
+  border-radius: 0 !important;
+}
+.changes-tono {
+  opacity: 1 !important;
+}
+.tono-1 img{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top: #d8bba9 15px solid;
+  border-bottom: #d8bba9 15px solid;
+}
+.tono-2 img{
+  border-top: #d6aa8d 15px solid;
+  border-bottom: #d6aa8d 15px solid;
+}
+.tono-3 img{
+  border-top: #c78d75 15px solid;
+  border-bottom: #c78d75 15px solid;
+}
+.tono-4 img{
+  border-top: #96634e 15px solid;
+  border-bottom: #96634e 15px solid;
+}
+.tono-5 img{
+  border-top: #664d48 15px solid;
+  border-bottom: #664d48 15px solid;
+}
+.tono-6 img{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: #3b3c37 15px solid;
+  border-bottom: #3b3c37 15px solid;
+}
+
+#number1 h4, #number1 h5{
+  color: #d8bba9;
+}
+.item-top1 {
+  border-top: #d8bba9 15px solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  visibility: hidden;
+}
+#number2 h4, #number2 h5{
+  color: #d6aa8d;
+}
+.item-top2 {
+  border-top: #d6aa8d 15px solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  visibility: hidden;
+}
+#number3 h4, #number3 h5{
+  color: #c78d75;
+}
+.item-top3 {
+  border-top: #c78d75 15px solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  visibility: hidden;
+}
+#number4 h4, #number4 h5{
+  color: #96634e;
+}
+.item-top4 {
+  border-top: #96634e 15px solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  visibility: hidden;
+}
+#number5 h4, #number5 h5{
+  color: #664d48;
+}
+.item-top5 {
+  border-top: #664d48 15px solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  visibility: hidden;
+}
+#number6 h4, #number6 h5{
+  color: #3b3c37;
+}
+.item-top6 {
+  border-top: #3b3c37 15px solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  visibility: hidden;
+}
+.change-item-top {
+  visibility: visible !important;
+}
+.item-piel:hover .face{
+  opacity: 1;
+  cursor: pointer;
+}
+.enable-info{
+  visibility: visible !important;
+  display: block !important;
+}
+.info {
+  visibility: hidden;
+  display: none;
+  width: 180px;
+  border: silver 0.005px solid;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+  line-height: 1.20;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+.info p {
+  color: gray;
+}
+
+/* TEMA 1 */
